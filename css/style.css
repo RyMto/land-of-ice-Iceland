@@ -1,0 +1,863 @@
+/* top */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-family: 'Murecho', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    text-align: left;
+}
+
+#top {
+    position: relative;
+    line-height: 0;
+}
+
+.topTitle {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 4%;
+    margin-left: 3%;
+    color: white;
+}
+
+.topCatchCopy {
+    font-size: 18px;
+    margin: 0;
+    line-height: 2;
+}
+
+.topSubTitle {
+    font-size: 35px;
+    margin: 0;
+    line-height: 0.7;
+}
+
+.topMainTitle {
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    margin-bottom: -5%;
+}
+
+/* menu */
+.menu {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+
+}
+
+.menu p {
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+
+.menuCategory {
+    display: flex;
+    background-color: black;
+    width: 100%;
+}
+
+.menuCategoryBloc {
+    position: relative;
+    overflow: hidden;
+    width: 20%;
+    /* opacity: 1; */
+}
+
+a {
+    text-align: center;
+    color: white;
+}
+
+
+a .menuCategoryBloc1Img {
+    transition: .3s;
+}
+
+a:hover .menuCategoryBloc1Img img {
+    opacity: 0.5;
+    transform: scale(1.3, 1.3);
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.menuCategoryBlocAuroraText {
+    align-items: center;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menuCategoryBlocAuroraText1 {
+    font-size: 13px;
+    padding: 0;
+    line-height: 1;
+    margin: 0;
+}
+
+.menuCategoryBlocAuroraText2 {
+    font-size: 25px;
+    padding: 0;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.menuCategoryBlocIceCaveText {
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menuCategoryBlocIceCaveText1 {
+    font-size: 13px;
+    padding: 0;
+    line-height: 1;
+    margin: 0;
+}
+
+.menuCategoryBlocIceCaveText2 {
+    font-size: 25px;
+    padding: 0;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.menuCategoryBlocWhiteNightText {
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: min(1vw, 150%);
+}
+
+.menuCategoryBlocWhiteNightText1 {
+    font-size: 13px;
+    padding: 0;
+    line-height: 1;
+    margin: 0;
+}
+
+.menuCategoryBlocWhiteNightText2 {
+    font-size: 25px;
+    padding: 0;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.menuCategoryBlocNatureText {
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: min(1vw, 150%);
+}
+
+.menuCategoryBlocNatureText1 {
+    font-size: 13px;
+    padding: 0;
+    line-height: 1;
+    margin: 0;
+}
+
+.menuCategoryBlocNatureText2 {
+    font-size: 25px;
+    padding: 0;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.menuCategoryBlocPlanText {
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: min(1vw, 150%);
+}
+
+.menuCategoryBlocPlanText1 {
+    font-size: 13px;
+    padding: 0;
+    line-height: 1;
+    margin: 0;
+}
+
+.menuCategoryBlocPlanText2 {
+    font-size: 25px;
+    padding: 0;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* aurora~nature/background-gradation */
+.backGroundGradation {
+    position: relative;
+    line-height: 0;
+    background: linear-gradient(180deg, rgba(4, 17, 42, 1) 40%, rgba(44, 55, 82, 1) 75%, rgba(27, 28, 31, 1) 100%);
+}
+
+.backGroundBlur::before {
+    content: "";
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(180deg, rgba(6, 17, 42, 1) 22%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.backGroundBlur1 {
+    position: relative;
+}
+
+.backGroundBlur1::before {
+    content: "";
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(0deg, rgba(6, 17, 42, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    top: -50px;
+}
+
+.star {
+    position: absolute;
+    top: 0;
+    display: block;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 2px rgba(#fff, 0.2);
+    opacity: 0;
+    animation: twinkle 5s infinite;
+}
+
+@keyframes twinkle {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+/* aurora */
+.auroraText {
+    color: white;
+    margin-top: 50px;
+}
+
+.auroraText1 p {
+    font-size: 55px;
+    text-align: center;
+}
+
+.eachTextAnimeAurora span {
+    opacity: 0;
+}
+
+.eachTextAnimeAurora span {
+    opacity: 0;
+}
+
+.eachTextAnimeAurora.appeartext span {
+    animation: text_anime_on 1s ease-out forwards;
+}
+
+@keyframes text_anime_on {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.auroraText2 {
+    margin-top: 20px;
+    line-height: 3;
+    font-size: 25px;
+    text-align: center;
+}
+
+.auroraCategory {
+    margin-top: 50px;
+}
+
+.auroraCategoryBloc {
+    display: flex;
+    justify-content: center;
+}
+
+.auroraCategoryBlocImg {
+    width: 35%;
+    margin-right: 50px;
+    object-fit: cover;
+}
+
+.auroraCategoryBloc1 {
+    width: 35%;
+    position: relative;
+    color: rgb(242, 237, 237);
+    display: flex;
+}
+
+.auroraCategoryText {
+    background-color: #1f1f1b;
+    padding: 30px;
+    line-height: 0;
+}
+
+.auroraCategoryText1 {
+    display: flex;
+    align-items: center;
+}
+
+.auroraCategoryText1Img {
+    width: 10%;
+    height: 10%;
+}
+
+.auroraCategoryText1text {
+    margin: 0;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.auroraCategoryText2 {
+    font-size: 38px;
+    line-height: 0;
+}
+
+.auroraCategoryText3 {
+    font-size: 16px;
+    line-height: 2;
+    margin: 0;
+}
+
+/* iceCave */
+#iceCave {
+    margin-top: 120px;
+    color: white;
+    line-height: 0;
+    background-color: #1f1f1b;
+}
+
+.iceCaveCategory {
+    display: flex;
+    align-items: center;
+}
+
+.iceCaveCategoryBloc {
+    width: 50%;
+}
+
+.iceCaveCategoryBlocText {
+    display: flex;
+    align-items: center;
+}
+
+.iceCaveCategoryBlocTextImg {
+    width: 10%;
+    height: 10%;
+}
+
+.iceCaveCategoryBlocText01 {
+    margin: 0;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.iceCaveCategoryBlocText2 {
+    font-size: 38px;
+    line-height: 1;
+    margin: 0;
+    margin-top: 3%;
+    padding-bottom: 3%;
+}
+
+.iceCaveCategoryBlocText3 {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 2;
+}
+
+.iceCaveCategoryBloc1 {
+    margin: 43px 50px 50px 160px;
+}
+
+.iceCaveCategoryBlocImg img {
+    float: left;
+    width: 50%;
+    margin-bottom: 10%;
+}
+
+.iceCaveCategoryImg2 {
+    width: 50%;
+    object-fit: cover;
+}
+
+/* white nights */
+#whiteNights {
+    color: white;
+    position: relative;
+}
+
+.whiteNightsCategoryImg {
+    width: 70%;
+}
+
+.whiteNightsCategoryBloc {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(-50%, -50%);
+    margin-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: justify;
+}
+
+.whiteNightsCategoryBlocImg {
+    margin-bottom: 10px;
+}
+
+.whiteNightsCategoryText1 {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.whiteNightsCategoryText1Img {
+    width: 10%;
+    height: 10%;
+}
+
+.whiteNightsCategoryText01 {
+    margin: 0;
+    margin-left: 8px;
+    font-size: 20px;
+    text-shadow: 2px 2px 6px black;
+}
+
+.whiteNightsCategoryText2 {
+    font-size: 38px;
+    line-height: 1;
+    margin: 0;
+    text-shadow: 2px 2px 6px black;
+}
+
+.whiteNightsCategoryText3 {
+    font-size: 16px;
+    line-height: 2;
+    margin: 0;
+    text-shadow: 2px 2px 6px black;
+}
+
+/* nature */
+.natureCategoryBloc1 {
+    display: flex;
+}
+
+.natureCategoryBloc2 {
+    display: flex;
+}
+
+/* 火山口 */
+.natureCategoryBlocVolcano {
+    position: relative;
+    width: 100%;
+}
+
+.natureCategoryBlocVolcanoBack {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(22, 21, 21, 0.5);
+    color: white;
+    padding: 20px 50px 20px 50px;
+}
+
+.natureCategoryBlocVolcanoText {
+    display: flex;
+    align-items: center;
+}
+
+.natureCategoryBlocVolcanoTextImg {
+    width: 8%;
+    height: 8%;
+}
+
+.natureCategoryBlocVolcanoText01 {
+    margin: 0;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.natureCategoryBlocVolcanoText2 {
+    font-size: 38px;
+    line-height: 1;
+    margin: 0;
+}
+
+.natureCategoryBlocVolcanoText3 {
+    font-size: 16px;
+    line-height: 2;
+    margin: 0;
+}
+
+/* 間欠泉 */
+.natureCategoryBlocGeyser {
+    position: relative;
+    width: 100%;
+}
+
+.natureCategoryBlocGeyserBack {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(22, 21, 21, 0.6);
+    color: white;
+    padding: 20px 50px 20px 50px;
+}
+
+.natureCategoryBlocGeyserText {
+    display: flex;
+    align-items: center;
+}
+
+.natureCategoryBlocGeyserTextImg {
+    width: 8%;
+    height: 8%;
+}
+
+.natureCategoryBlocGeyserText01 {
+    margin: 0;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.natureCategoryBlocGeyserText2 {
+    font-size: 38px;
+    line-height: 1;
+    margin: 0;
+}
+
+.natureCategoryBlocGeyserText3 {
+    font-size: 16px;
+    line-height: 2;
+    margin: 0;
+}
+
+/* 温泉 */
+.natureCategoryBlocHotSpring {
+    position: relative;
+    width: 100%;
+}
+
+.natureCategoryBlocHotSpringBack {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(22, 21, 21, 0.5);
+    color: white;
+    padding: 20px 50px 20px 50px;
+}
+
+.natureCategoryBlocHotSpringText {
+    display: flex;
+    align-items: center;
+}
+
+.natureCategoryBlocHotSpringTextImg {
+    width: 8%;
+    height: 8%;
+}
+
+.natureCategoryBlocHotSpringText01 {
+    margin: 0;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.natureCategoryBlocHotSpringText2 {
+    font-size: 38px;
+    line-height: 1;
+    margin: 0;
+}
+
+.natureCategoryBlocHotSpringText3 {
+    font-size: 16px;
+    line-height: 2;
+    margin: 0;
+}
+
+/* ダイビング */
+.natureCategoryBlocDiving {
+    position: relative;
+    width: 100%;
+}
+
+.natureCategoryBlocDivingBack {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(22, 21, 21, 0.5);
+    color: white;
+    padding: 20px 50px 20px 50px;
+}
+
+.natureCategoryBlocDivingText {
+    display: flex;
+    align-items: center;
+}
+
+.natureCategoryBlocDivingTextImg {
+    width: 8%;
+    height: 8%;
+}
+
+.natureCategoryBlocDivingText01 {
+    margin: 0;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.natureCategoryBlocDivingText2 {
+    font-size: 38px;
+    line-height: 1;
+    margin: 0;
+}
+
+.natureCategoryBlocDivingText3 {
+    font-size: 16px;
+    line-height: 2;
+    margin: 0;
+}
+
+.natureScrollSlider1 {
+    margin-top: 10%;
+}
+
+.natureScrollSlider2 {
+    margin-top: 2%;
+    padding-bottom: 10%;
+}
+
+/* plan */
+#plan {
+    position: relative;
+    height: 740px;
+}
+
+.planImg {
+    float: right;
+    width: 40%;
+    filter: brightness(0) saturate(100%) invert(97%) sepia(22%) saturate(4325%) hue-rotate(170deg) brightness(102%) contrast(81%);
+}
+
+.planCategory {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 120px;
+}
+
+.planCategoryBloc {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.planText {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2%;
+    font-size: 40px;
+}
+
+.planCategoryBlocPreparation {
+    width: 20%;
+    margin-right: 30px;
+}
+
+.planCategoryBlocPreparationText1 {
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 2.5%;
+}
+
+.planCategoryBlocPreparationText2 {
+    font-size: 14px;
+    margin: 0;
+    line-height: 2;
+}
+
+.planCategoryBlocNecessities {
+    width: 20%;
+    margin-right: 30px;
+}
+
+.planCategoryBlocNecessitiesText1 {
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 2.5%;
+}
+
+.planCategoryBlocNecessitiesText2 {
+    font-size: 14px;
+    margin: 0;
+    line-height: 2;
+}
+
+.planCategoryBlocReykjavik {
+    width: 20%;
+    margin-right: 30px;
+}
+
+.planCategoryBlocReykjavikText1 {
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 2.5%;
+    letter-spacing: -0.1em;
+}
+
+.planCategoryBlocReykjavikText2 {
+    font-size: 14px;
+    margin: 0;
+    line-height: 2;
+}
+
+.planCategoryBlocKeflavik {
+    width: 20%;
+}
+
+.planCategoryBlocKeflavikText1 {
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 2.5%;
+}
+
+.planCategoryBlocKeflavikText2 {
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* under */
+.under {
+    line-height: 0;
+    position: relative;
+}
+
+.underImg {
+    position: relative;
+}
+
+.fadeInTriggerUnderText {
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    width: 40%;
+    height: 20%;
+    line-height: 2;
+    font-size: 30px;
+}
+
+/* fadeIn */
+.fadeIn {
+    animation-name: fadeInAnime;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadeInAnime {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeInTrigger {
+    opacity: 0;
+}
+
+/* topReturn */
+.topReturn {
+    width: 70px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+.topReturn a :hover {
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
+}
+
+/* footer */
+footer p {
+    line-height: 1.5;
+    background-color: #333333;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 20px;
+}
